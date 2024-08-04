@@ -35,7 +35,7 @@
 
 12. slice: Cắt chuỗi
 
--   slice(<index start>, <index end + 1 >)
+-   slice(<index start>, <index end> + 1)
 -   slice(<index là số dương>): cắt từ đầu tới cuối / vị trí dừng
 -   slice(<index âm>): cắt từ cuối tới đầu/ vị trí dừng
 
@@ -43,3 +43,12 @@
 
 -   trimStart
 -   trimEnd
+
+14. substr: không nên dùng, bị lỗi
+15. substring : cắt chuỗi
+
+-   subtring(<index start>, <index end> + 1)
+
+16. charArt: Lấy phần tử tại vị trí index chỉ định
+
+-   charArt( <index phần tử cần lấy> )

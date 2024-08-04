@@ -33,3 +33,10 @@ console.log(myStr.slice(0, 8)); // frontend
 
 const myStr2 = "      Nguyen        Quy        Dat      ";
 console.log(myStr2.trim());
+
+const myStr3 = "DatNguyen";
+console.log(myStr3.charAt(3)); // N
+console.log(myStr3.substr(0, 2)); // Dat ?? - atN || Da
+console.log(myStr3.substr(1, 3)); // Dat ?? - atN || atN
+console.log(myStr3.substring(0, 2)); // Da
+console.log(myStr3.substring(0, 3)); // Dat
